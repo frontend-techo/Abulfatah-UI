@@ -94,7 +94,7 @@ export class AppComponent {
             title: 'Title 9'
         },
         {
-            itemImageSrc: 'https://primefaces.org/cdn/primeng/images/galleria/galleria10.jpg',
+            itemImageSrc: 'https://alahazrat.net/wp-content/uploads/2020/12/wednesday-dua.jpg',
             alt: 'Description for Image 10',
             title: 'Title 10'
         },
@@ -104,22 +104,22 @@ export class AppComponent {
             title: 'Title 11'
         },
         {
-            itemImageSrc: 'https://primefaces.org/cdn/primeng/images/galleria/galleria12.jpg',
+            itemImageSrc: 'https://alahazrat.net/wp-content/uploads/2020/12/wednesday-dua.jpg',
             alt: 'Description for Image 12',
             title: 'Title 12'
         },
         {
-            itemImageSrc: 'https://primefaces.org/cdn/primeng/images/galleria/galleria13.jpg',
+            itemImageSrc: 'https://alahazrat.net/wp-content/uploads/2020/12/monday-thursday-roza.jpg',
             alt: 'Description for Image 13',
             title: 'Title 13'
         },
         {
-            itemImageSrc: 'https://primefaces.org/cdn/primeng/images/galleria/galleria14.jpg',
+            itemImageSrc: 'https://alahazrat.net/wp-content/uploads/2020/12/monday-thursday-roza.jpg',
             alt: 'Description for Image 14',
             title: 'Title 14'
         },
         {
-            itemImageSrc: 'https://alahazrat.net/updates/shab-e-jumma-ka-durood/',
+            itemImageSrc: 'https://alahazrat.net/wp-content/uploads/2020/12/jumma-durood-e-razwi.jpg',
             alt: 'Description for Image 15',
             title: 'Title 15'
         }
