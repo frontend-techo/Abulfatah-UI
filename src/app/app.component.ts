@@ -119,11 +119,12 @@ export class AppComponent {
             title: 'Title 14'
         },
         {
-            itemImageSrc: 'https://primefaces.org/cdn/primeng/images/galleria/galleria15.jpg',
+            itemImageSrc: 'https://alahazrat.net/updates/shab-e-jumma-ka-durood/',
             alt: 'Description for Image 15',
             title: 'Title 15'
         }
        ]
     }
+    
 
 }
