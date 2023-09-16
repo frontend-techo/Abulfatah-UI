@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
-import { SharedModule } from '././modules/shared/shared.module';
+import { PrimeNgModule } from './modules/shared/primeng.module';
 
 
 // Import PrimeNG modules
