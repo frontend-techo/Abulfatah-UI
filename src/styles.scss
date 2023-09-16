@@ -3,11 +3,13 @@
 @import "primeng/resources/primeng.css";
 
 
-body{
-    background-color: #BAE5FA;
+.navbar-brand {
     font-size: 14px;
 }
 
-.navbar-brand {
+body {
+    padding: 0;
+    margin: 0;
     font-size: 14px;
+    background-color:  #BAE5FA;
 }
