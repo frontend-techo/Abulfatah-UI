@@ -35,7 +35,7 @@
 
 <div class="grid">
   <div class="col-12 md:col-12 lg:col-12">
-    <div class="p-4">
+    <div class="p-6">
       <p-galleria [value]="images" [autoPlay]="true" [showTransitionOptions]="'1000ms'" [showItemNavigators]="true"
         [showThumbnails]="false" [responsiveOptions]="responsiveOptions" [containerStyle]="{ 'max-width': '100%' }">
         <ng-template pTemplate="item" let-item>
@@ -73,110 +73,124 @@
 
 <!-- 03 Search books -->
 
-<section class="banner-search section-bg padding-120">
-  <div class="container">
-
-    <form>
-      <select class="bn-search-opt">
-        <option>All Categories</option>
-        <option>Book 1</option>
-        <option>Book 2</option>
-        <option>Book 3</option>
-        <option>Book 4</option>
-        <option>Book 5</option>
-        <option>Book 6</option>
-        <option>Book 7</option>
-      </select>
-      <select class="bn-search-opt">
-        <option>Book Lavel</option>
-        <option>Volume 1</option>
-        <option>Volume 2</option>
-        <option>Volume 3</option>
-      </select>
-      <input class="bn-search-opt" type="search" name="search" placeholder="Books Keyword...">
-      <button>Search Books</button>
-    </form>
+<div class="grid">
+  <div class="col-12 md:col-12 lg:col-12">
+    <div class="p-6">
+      <section class="banner-search section-bg p-6">
+        <div class="container">
+      
+          <form>
+            <select class="bn-search-opt">
+              <option>All Categories</option>
+              <option>Book 1</option>
+              <option>Book 2</option>
+              <option>Book 3</option>
+              <option>Book 4</option>
+              <option>Book 5</option>
+              <option>Book 6</option>
+              <option>Book 7</option>
+            </select>
+            <select class="bn-search-opt">
+              <option>Book Lavel</option>
+              <option>Volume 1</option>
+              <option>Volume 2</option>
+              <option>Volume 3</option>
+            </select>
+            <input class="bn-search-opt" type="search" name="search" placeholder="Books Keyword...">
+            <button>Search Books</button>
+          </form>
+        </div>
+      </section>
+    </div>
   </div>
 
-</section>
+</div>
 
 <!-- 04 Groups Category  -->
 
-<section class="pricing">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="pricing-item">
-          <div class="title" style="padding: 10px;text-align: center">
-            <h3>AI Quran</h3>
+<div class="grid">
+  <div class="col-12 md:col-12 lg:col-12">
+    <div class="p-6">
+      <section class="pricing">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="pricing-item">
+                <div class="title" style="padding: 10px;text-align: center">
+                  <h3>AI Quran</h3>
+                </div>
+                <div class="content">
+                  <p><i class="fa fa-check-circle" aria-hidden="true"></i> Read Complete Al Quran</p>
+                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Kanzul Eman Noorul Irfan</p>
+                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Al Quran Arabic</p>
+                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Al Quran MP3 Para Wise</p>
+                  <p><i class="fa fa-check-circle" aria-hidden="true"></i> Al Quran MP3 Surah Wise</p>
+                </div>
+                <div class="bottom">
+                  <a href="#" class="button-default">View ALL</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="pricing-item">
+                <div class="title" style="background-color: black;padding: 10px;text-align: center">
+                  <h3>Books</h3>
+                </div>
+                <div class="content">
+                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Speeches</p>
+                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Hamd</p>
+                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Naat</p>
+                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Darse Fiqah</p>
+                  <p><i class="fa fa-check-circle" aria-hidden="true"></i> Meray Ghous Piya Jilani</p>
+                </div>
+                <div class="bottom">
+                  <a  routerLink="/books" class="button-default">View ALL</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="pricing-item">
+                <div class="title" style="background-color: #ffb400;padding: 10px;text-align: center">
+                  <h3>Media <span><sup></sup></span></h3>
+                </div>
+                <div class="content">
+                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Speeches</p>
+                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Hamd</p>
+                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Naat</p>
+                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Darse Fiqah</p>
+                  <p><i class="fa fa-check-circle" aria-hidden="true"></i> Meray Ghous Piya Jilani</p>
+                </div>
+                <div class="bottom">
+                  <a href="#" class="button-default">View ALL</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="pricing-item">
+                <div class="title" style="padding: 10px;text-align: center">
+                  <h3>Gallary <span><sup></sup></span></h3>
+                </div>
+                <div class="content">
+                  <p><i class="fa fa-check-circle" aria-hidden="true"></i> Meray Ghous Piya Jilani</p>
+                  <p><i class="fa fa-check-circle" aria-hidden="true"></i> Khuda Kay Fazl Se Ham Per </p>
+                  <p><i class="fa fa-check-circle" aria-hidden="true"></i> Faslon Ko Khudara Mita Do</p>
+                  <p><i class="fa fa-check-circle" aria-hidden="true"></i> Qasida Ghousia</p>
+                  <p><i class="fa fa-check-circle" aria-hidden="true"></i> Meran Walion Kay Imam De D </p>
+                </div>
+                <div class="bottom">
+                  <a href="#" class="button-default">View ALL</a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="content">
-            <p><i class="fa fa-check-circle" aria-hidden="true"></i> Read Complete Al Quran</p>
-            <p><i class="fa fa-check-circle" aria-hidden="true"></i>Kanzul Eman Noorul Irfan</p>
-            <p><i class="fa fa-check-circle" aria-hidden="true"></i>Al Quran Arabic</p>
-            <p><i class="fa fa-check-circle" aria-hidden="true"></i>Al Quran MP3 Para Wise</p>
-            <p><i class="fa fa-check-circle" aria-hidden="true"></i> Al Quran MP3 Surah Wise</p>
-          </div>
-          <div class="bottom">
-            <a href="#" class="button-default">View ALL</a>
-          </div>
+      
         </div>
-      </div>
-      <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="pricing-item">
-          <div class="title" style="background-color: black;padding: 10px;text-align: center">
-            <h3>Books</h3>
-          </div>
-          <div class="content">
-            <p><i class="fa fa-check-circle" aria-hidden="true"></i>Speeches</p>
-            <p><i class="fa fa-check-circle" aria-hidden="true"></i>Hamd</p>
-            <p><i class="fa fa-check-circle" aria-hidden="true"></i>Naat</p>
-            <p><i class="fa fa-check-circle" aria-hidden="true"></i>Darse Fiqah</p>
-            <p><i class="fa fa-check-circle" aria-hidden="true"></i> Meray Ghous Piya Jilani</p>
-          </div>
-          <div class="bottom">
-            <a  routerLink="/books" class="button-default">View ALL</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="pricing-item">
-          <div class="title" style="background-color: #ffb400;padding: 10px;text-align: center">
-            <h3>Media <span><sup></sup></span></h3>
-          </div>
-          <div class="content">
-            <p><i class="fa fa-check-circle" aria-hidden="true"></i>Speeches</p>
-            <p><i class="fa fa-check-circle" aria-hidden="true"></i>Hamd</p>
-            <p><i class="fa fa-check-circle" aria-hidden="true"></i>Naat</p>
-            <p><i class="fa fa-check-circle" aria-hidden="true"></i>Darse Fiqah</p>
-            <p><i class="fa fa-check-circle" aria-hidden="true"></i> Meray Ghous Piya Jilani</p>
-          </div>
-          <div class="bottom">
-            <a href="#" class="button-default">View ALL</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6 col-xs-12">
-        <div class="pricing-item">
-          <div class="title" style="padding: 10px;text-align: center">
-            <h3>Gallary <span><sup></sup></span></h3>
-          </div>
-          <div class="content">
-            <p><i class="fa fa-check-circle" aria-hidden="true"></i> Meray Ghous Piya Jilani</p>
-            <p><i class="fa fa-check-circle" aria-hidden="true"></i> Khuda Kay Fazl Se Ham Per </p>
-            <p><i class="fa fa-check-circle" aria-hidden="true"></i> Faslon Ko Khudara Mita Do</p>
-            <p><i class="fa fa-check-circle" aria-hidden="true"></i> Qasida Ghousia</p>
-            <p><i class="fa fa-check-circle" aria-hidden="true"></i> Meran Walion Kay Imam De D </p>
-          </div>
-          <div class="bottom">
-            <a href="#" class="button-default">View ALL</a>
-          </div>
-        </div>
-      </div>
+      </section>
     </div>
-
   </div>
-</section>
+
+</div>
+
 <!-- 04 Question Answer  -->
 
 
