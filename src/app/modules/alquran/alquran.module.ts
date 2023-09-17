@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { AlquranRoutingModule } from './alquran-routing.module';
 import { AlquranPageComponent } from './pages/alquran-page/alquran-page.component';
-
+import {PrimeNgModule} from '../shared/primeng.module'
 
 @NgModule({
   declarations: [
@@ -11,7 +11,8 @@ import { AlquranPageComponent } from './pages/alquran-page/alquran-page.componen
   ],
   imports: [
     CommonModule,
-    AlquranRoutingModule
+    AlquranRoutingModule,
+    PrimeNgModule
   ]
 })
 export class AlquranModule { }
