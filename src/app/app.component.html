@@ -1,23 +1,31 @@
-<!-- 02 head section -->
-
-<div class="main-container px-5 pt-6">
-
+  <!-- 02 Banner section -->
 
   <div class="grid">
     <div class="col-12 md:col-12 lg:col-12">
       <p-galleria [value]="images" [autoPlay]="true" [showTransitionOptions]="'1000ms'" [showItemNavigators]="true"
         [showThumbnails]="false" [responsiveOptions]="responsiveOptions" [containerStyle]="{ 'max-width': '100%' }">
         <ng-template pTemplate="item" let-item>
-          <img [src]="item.itemImageSrc" style="width:100%;height:300px;" />
+          <img [src]="item.itemImageSrc" style="width:100%;height:200px;" />
+        </ng-template>
+      </p-galleria>
+  </div>
+</div>
+
+<div class="main-container">
+  <!-- 02 sub Banner section -->
+  <div class="grid">
+    <div class="col-12 md:col-6 lg:col-6">
+      <div class="px-4 pt-3">
+      <p-galleria [value]="images" [autoPlay]="true" [showTransitionOptions]="'1000ms'" [showItemNavigators]="true"
+        [showThumbnails]="false" [responsiveOptions]="responsiveOptions" [containerStyle]="{ 'max-width': '100%' }">
+        <ng-template pTemplate="item" let-item>
+          <img [src]="item.itemImageSrc" style="width:100%;height: 300px;" />
         </ng-template>
       </p-galleria>
     </div>
   </div>
-
-  <!-- 02 sub section -->
-
-  <div class="grid">
     <div class="col-12 md:col-6 lg:col-6">
+      <div class="px-4 pt-3">
       <p-galleria [value]="images" [autoPlay]="true" [showTransitionOptions]="'1000ms'" [showItemNavigators]="true"
         [showThumbnails]="false" [responsiveOptions]="responsiveOptions" [containerStyle]="{ 'max-width': '100%' }">
         <ng-template pTemplate="item" let-item>
@@ -25,14 +33,7 @@
         </ng-template>
       </p-galleria>
     </div>
-    <div class="col-12 md:col-6 lg:col-6">
-      <p-galleria [value]="images" [autoPlay]="true" [showTransitionOptions]="'1000ms'" [showItemNavigators]="true"
-        [showThumbnails]="false" [responsiveOptions]="responsiveOptions" [containerStyle]="{ 'max-width': '100%' }">
-        <ng-template pTemplate="item" let-item>
-          <img [src]="item.itemImageSrc" style="width:100%;height: 300px;" />
-        </ng-template>
-      </p-galleria>
-    </div>
+  </div>
   </div>
 
   <!-- 03 Search books -->
