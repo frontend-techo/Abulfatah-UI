@@ -3,7 +3,7 @@
 
 <div class="grid">
   <div class="col-12 md:col-12 lg:col-12">
-    <div class="p-4">
+    <div class="px-8 pt-6">
       <p-galleria [value]="images" [autoPlay]="true" [showTransitionOptions]="'1000ms'" [showItemNavigators]="true"
         [showThumbnails]="false" [responsiveOptions]="responsiveOptions" [containerStyle]="{ 'max-width': '100%' }">
         <ng-template pTemplate="item" let-item>
@@ -18,7 +18,7 @@
 
 <div class="grid">
   <div class="col-12 md:col-6 lg:col-6">
-    <div class="p-4">
+    <div class="px-8 pt-6">
       <p-galleria [value]="images" [autoPlay]="true" [showTransitionOptions]="'1000ms'" [showItemNavigators]="true"
         [showThumbnails]="false" [responsiveOptions]="responsiveOptions" [containerStyle]="{ 'max-width': '100%' }">
         <ng-template pTemplate="item" let-item>
@@ -28,7 +28,7 @@
     </div>
   </div>
   <div class="col-12 md:col-6 lg:col-6">
-    <div class="p-4">
+    <div class="px-8 pt-6">
       <p-galleria [value]="images" [autoPlay]="true" [showTransitionOptions]="'1000ms'" [showItemNavigators]="true"
         [showThumbnails]="false" [responsiveOptions]="responsiveOptions" [containerStyle]="{ 'max-width': '100%' }">
         <ng-template pTemplate="item" let-item>
@@ -43,7 +43,7 @@
 
 <div class="grid">
   <div class="col-12 md:col-12 lg:col-12">
-    <div class="p-4">
+    <div class="px-8 pt-6">
       <section class="banner-search section-bg p-6">
         <div class="container">
       
@@ -78,7 +78,7 @@
 
 <div class="grid">
   <div class="col-12 md:col-12 lg:col-12">
-    <div class="p-4">
+    <div class="px-8 pt-6">
       <section class="pricing">
         <div class="container">
           <div class="grid">
@@ -162,7 +162,7 @@
 <!-- 05 Question Answer  -->
 <div class="grid">
   <div class="col-12 md:col-12 lg:col-12">
-    <div class="p-4">
+    <div class="px-8 pt-6">
       <section class="pricing">
         <div class="container">
           <div class="grid">
@@ -291,33 +291,37 @@
 
 </div>
 
-
 <!-- 06 Footer  -->
 
-<footer>
-  <div class="footer-bottom">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-sm-6 col-xs-12">
-          <p>&copy; 2023. Designed By <a href="https://www.linkedin.com/in/mohammad-naqeem-raza-momin-a8202a21a">Abul
-              Fatah</a></p>
-        </div>
-        <div class="col-md-6 col-sm-6 col-xs-12">
-          <ul class="social-default">
-            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div><!-- footer bottom -->
-</footer>
+<div class="grid">
+  <div class="col-12 md:col-12 lg:col-12">
+    <div class="px-8 pt-6">
 
-<a class="page-scroll scroll-top" href="#scroll-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
-<!-- Footer End here -->
+      <footer>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                <p>&copy; 2023. Designed By <a href="https://www.linkedin.com/in/mohammad-naqeem-raza-momin-a8202a21a">Abul
+                    Fatah</a></p>
+              </div>
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                <ul class="social-default">
+                  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</div>
+
 
 <router-outlet></router-outlet>
 
