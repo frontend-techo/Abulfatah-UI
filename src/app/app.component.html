@@ -1,6 +1,9 @@
+
+<!-- 02 head section -->
+
 <div class="grid">
   <div class="col-12 md:col-12 lg:col-12">
-    <div class="p-6">
+    <div class="p-4">
       <p-galleria [value]="images" [autoPlay]="true" [showTransitionOptions]="'1000ms'" [showItemNavigators]="true"
         [showThumbnails]="false" [responsiveOptions]="responsiveOptions" [containerStyle]="{ 'max-width': '100%' }">
         <ng-template pTemplate="item" let-item>
@@ -11,11 +14,11 @@
   </div>
 </div>
 
-<!-- 02 news area -->
+<!-- 02 sub section -->
 
 <div class="grid">
   <div class="col-12 md:col-6 lg:col-6">
-    <div class="p-6">
+    <div class="p-4">
       <p-galleria [value]="images" [autoPlay]="true" [showTransitionOptions]="'1000ms'" [showItemNavigators]="true"
         [showThumbnails]="false" [responsiveOptions]="responsiveOptions" [containerStyle]="{ 'max-width': '100%' }">
         <ng-template pTemplate="item" let-item>
@@ -25,7 +28,7 @@
     </div>
   </div>
   <div class="col-12 md:col-6 lg:col-6">
-    <div class="p-6">
+    <div class="p-4">
       <p-galleria [value]="images" [autoPlay]="true" [showTransitionOptions]="'1000ms'" [showItemNavigators]="true"
         [showThumbnails]="false" [responsiveOptions]="responsiveOptions" [containerStyle]="{ 'max-width': '100%' }">
         <ng-template pTemplate="item" let-item>
@@ -40,7 +43,7 @@
 
 <div class="grid">
   <div class="col-12 md:col-12 lg:col-12">
-    <div class="p-6">
+    <div class="p-4">
       <section class="banner-search section-bg p-6">
         <div class="container">
       
@@ -75,7 +78,7 @@
 
 <div class="grid">
   <div class="col-12 md:col-12 lg:col-12">
-    <div class="p-6">
+    <div class="p-4">
       <section class="pricing">
         <div class="container">
           <div class="grid">
@@ -156,20 +159,19 @@
 
 </div>
 
-<!-- 04 Question Answer  -->
-
-
-<section class="pricing padding-120">
-			<div class="container">
-		
-			<div class="grid">
-				<div class="col-12 md:col-6 sm:col-6 xs:col-12">
-					
-					<div class="pricing-item">
-						<div class="title"  style="background-color:#ffb400;padding: 10px;text-align: center">
-							<h3>Recent Articles</h3>
-						</div>
-            
+<!-- 05 Question Answer  -->
+<div class="grid">
+  <div class="col-12 md:col-12 lg:col-12">
+    <div class="p-4">
+      <section class="pricing">
+        <div class="container">
+          <div class="grid">
+            <div class="col-12 md:col-6 sm:col-6 xs:col-12">
+              <div class="pricing-item">
+                <div class="title" style="padding: 10px;text-align: center">
+                  <h3>Recent Articles</h3>
+                </div>
+                         
 <p-tabView>
   <p-tabPanel header="Namaz">
     <div class="content">
@@ -217,61 +219,82 @@
     </div>
   </p-tabPanel>
 </p-tabView>
+                <div class="bottom">
+                  <a href="#" class="button-default">View ALL</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 md:col-6 sm:col-6 xs:col-12">
+              <div class="pricing-item">
+                <div class="title" style="padding: 10px;text-align: center">
+                  <h3>Question/Answer</h3>
+                </div>
+                         
+<p-tabView>
+  <p-tabPanel header="Namaz">
+    <div class="content">
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i> Namaz Writing & Work of Imam Ahmad Raza</p>
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Primary and Tertiary Education of Alahzrat</p>
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i>92 Pearls of Wisdom by Alahazratc</p>
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i>In defence of Alahazrat Imam Ahmed Raza</p>
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Alahazrat Spiritual Life</p>
+    </div>
+  </p-tabPanel>
+  <p-tabPanel header="Roza">
+    <div class="content">
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Roza Writing & Work of Imam Ahmad Raza</p>
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Primary and Tertiary Education of Alahzrat</p>
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i>92 Pearls of Wisdom by Alahazratc</p>
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i>In defence of Alahazrat Imam Ahmed Raza</p>
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Alahazrat Spiritual Life</p>
+    </div>
+  </p-tabPanel>
+  <p-tabPanel header="Hajj">
+    <div class="content">
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Hajj Writing & Work of Imam Ahmad Raza</p>
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Primary and Tertiary Education of Alahzrat</p>
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i>92 Pearls of Wisdom by Alahazratc</p>
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i>In defence of Alahazrat Imam Ahmed Raza</p>
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Alahazrat Spiritual Life</p>
+    </div>
+  </p-tabPanel>
+  <p-tabPanel header="Zakat">
+    <div class="content">
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Zakat Writing & Work of Imam Ahmad Raza</p>
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Primary and Tertiary Education of Alahzrat</p>
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i>92 Pearls of Wisdom by Alahazratc</p>
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i>In defence of Alahazrat Imam Ahmed Raza</p>
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Alahazrat Spiritual Life</p>
+    </div>
+  </p-tabPanel>
+  <p-tabPanel header="Aqaid">
+    <div class="content">
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Alahazrat Writing & Work of Imam Ahmad Raza</p>
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Primary and Tertiary Education of Alahzrat</p>
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i>92 Pearls of Wisdom by Alahazratc</p>
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i>In defence of Alahazrat Imam Ahmed Raza</p>
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Alahazrat Spiritual Life</p>
+    </div>
+  </p-tabPanel>
+</p-tabView>
+                <div class="bottom">
+                  <a href="#" class="button-default">View ALL</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </section>
+    </div>
+  </div>
 
-						
-						<div class="bottom">
-							<a href="#" class="button-default">View ALL</a>
-						</div>
-					</div><!-- pricing item -->
-				</div>
-				<div class="col-12 md:col-6 sm:col-6 xs:col-12">
-					<div class="pricing-item">
-						<div class="title" style="padding: 10px;text-align: center">
-							<h3>Question/Answer</h3>
-						</div>
-						<p-tabView>
-              <p-tabPanel header="Alahazrat">
-                <div class="content">
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Alahazrat Writing & Work of Imam Ahmad Raza</p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Primary and Tertiary Education of Alahzrat</p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>92 Pearls of Wisdom by Alahazratc</p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>In defence of Alahazrat Imam Ahmed Raza</p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Alahazrat Spiritual Life</p>
-                </div>
-              </p-tabPanel>
-              <p-tabPanel header="Articles">
-                <div class="content">
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Articles Writing & Work of Imam Ahmad Raza</p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Primary and Tertiary Education of Alahzrat</p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>92 Pearls of Wisdom by Alahazratc</p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>In defence of Alahazrat Imam Ahmed Raza</p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Alahazrat Spiritual Life</p>
-                </div>
-              </p-tabPanel>
-              <p-tabPanel header="Naat Lyrics">
-                <div class="content">
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Naat Lyrics Writing & Work of Imam Ahmad Raza</p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Primary and Tertiary Education of Alahzrat</p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>92 Pearls of Wisdom by Alahazratc</p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>In defence of Alahazrat Imam Ahmed Raza</p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Alahazrat Spiritual Life</p>
-                </div>
-              </p-tabPanel>
-            
-             
-            </p-tabView>
-						<div class="bottom">
-							<a href="#" class="button-default">View ALL</a>
-						</div>
-					</div><!-- pricing item -->
-				</div>
-			</div><!-- row -->
-				
-			</div><!-- container -->
-		</section>
-<!-- Footer Start here -->
+</div>
+
+
+<!-- 06 Footer  -->
+
 <footer>
-
   <div class="footer-bottom">
     <div class="container">
       <div class="row">
@@ -292,6 +315,7 @@
     </div>
   </div><!-- footer bottom -->
 </footer>
+
 <a class="page-scroll scroll-top" href="#scroll-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
 <!-- Footer End here -->
 
