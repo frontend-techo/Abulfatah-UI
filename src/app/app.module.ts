@@ -10,7 +10,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import {PrimeNgModule} from '././modules/shared/primeng.module'
 
 
 @NgModule({
@@ -24,7 +23,6 @@ import {PrimeNgModule} from '././modules/shared/primeng.module'
     HttpClientModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    PrimeNgModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: !isDevMode(),
       // Register the ServiceWorker as soon as the application is stable

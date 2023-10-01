@@ -1,349 +1,339 @@
-  <!-- 02 main Banner section -->
+	  
 
-  <div class="grid">
-    <div class="col-12 md:col-12 lg:col-12">
-      <p-galleria [value]="images" [autoPlay]="true" [showTransitionOptions]="'1000ms'" [showItemNavigators]="true"
-        [showThumbnails]="false" [responsiveOptions]="responsiveOptions" [containerStyle]="{ 'max-width': '100%' }">
-        <ng-template pTemplate="item" let-item>
-          <img [src]="item.itemImageSrc" style="width:100%;height:200px;" />
-        </ng-template>
-      </p-galleria>
-  </div>
-</div>
-
-<div class="main-container">
-  <!-- 02 sub Banner section -->
-  <div class="grid">
-    <div class="col-12 md:col-6 lg:col-6">
-      <div class="px-4 pt-3">
-      <p-galleria [value]="images" [autoPlay]="true" [showTransitionOptions]="'1000ms'" [showItemNavigators]="true"
-        [showThumbnails]="false" [responsiveOptions]="responsiveOptions" [containerStyle]="{ 'max-width': '100%' }">
-        <ng-template pTemplate="item" let-item>
-          <img [src]="item.itemImageSrc" style="width:100%;height: 300px;" />
-        </ng-template>
-      </p-galleria>
-    </div>
-  </div>
-    <div class="col-12 md:col-6 lg:col-6">
-      <div class="px-4 pt-3">
-      <p-galleria [value]="images" [autoPlay]="true" [showTransitionOptions]="'1000ms'" [showItemNavigators]="true"
-        [showThumbnails]="false" [responsiveOptions]="responsiveOptions" [containerStyle]="{ 'max-width': '100%' }">
-        <ng-template pTemplate="item" let-item>
-          <img [src]="item.itemImageSrc" style="width:100%;height: 300px;" />
-        </ng-template>
-      </p-galleria>
-    </div>
-  </div>
-  </div>
-
-  <!-- 03 Search books -->
-
-  <div class="grid">
-    <div class="col-12 md:col-12 lg:col-12">
-      <section class="banner-search section-bg p-6">
-        <div class="px-4 pt-3">
-          <form>
-            <select class="bn-search-opt">
-              <option>All Categories</option>
-              <option>Book 1</option>
-              <option>Book 2</option>
-              <option>Book 3</option>
-              <option>Book 4</option>
-              <option>Book 5</option>
-              <option>Book 6</option>
-              <option>Book 7</option>
-            </select>
-            <select class="bn-search-opt">
-              <option>Book Lavel</option>
-              <option>Volume 1</option>
-              <option>Volume 2</option>
-              <option>Volume 3</option>
-            </select>
-            <input class="bn-search-opt" type="search" name="search" placeholder="Books Keyword...">
-            <button>Search Books</button>
-          </form>
-        </div>
-      </section>
-    </div>
-
-  </div>
-
-  <!-- 04 Groups Category  -->
-
-  <div class="grid">
-    <div class="col-12 md:col-12 lg:col-12">
-      <section class="pricing">
-        <div class="container px-4 pt-3">
-          <div class="grid">
-            <div class="col-12 md:col-3 sm:col-6 xs:col-12">
-              <div class="pricing-item">
-                <div class="title" style="padding: 10px;text-align: center">
-                  <h3>AI Quran</h3>
-                </div>
-                <div class="content">
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i> Read Complete Al Quran</p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Kanzul Eman Noorul Irfan</p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Al Quran Arabic</p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Al Quran MP3 Para Wise</p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i> Al Quran MP3 Surah Wise</p>
-                </div>
-                <div class="bottom">
-                  <a href="#" class="button-default">View ALL</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 md:col-3 sm:col-6 xs:col-12">
-              <div class="pricing-item">
-                <div class="title" style="background-color: black;padding: 10px;text-align: center">
-                  <h3>Books</h3>
-                </div>
-                <div class="content">
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Speeches</p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Hamd</p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Naat</p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Darse Fiqah</p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i> Meray Ghous Piya Jilani</p>
-                </div>
-                <div class="bottom">
-                  <a routerLink="/books" class="button-default">View ALL</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 md:col-3 sm:col-6 xs:col-12">
-              <div class="pricing-item">
-                <div class="title" style="background-color: #ffb400;padding: 10px;text-align: center">
-                  <h3>Media <span><sup></sup></span></h3>
-                </div>
-                <div class="content">
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Speeches</p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Hamd</p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Naat</p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i>Darse Fiqah</p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i> Meray Ghous Piya Jilani</p>
-                </div>
-                <div class="bottom">
-                  <a href="#" class="button-default">View ALL</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 md:col-3 sm:col-6 xs:col-12">
-              <div class="pricing-item">
-                <div class="title" style="padding: 10px;text-align: center">
-                  <h3>Gallary <span><sup></sup></span></h3>
-                </div>
-                <div class="content">
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i> Meray Ghous Piya Jilani</p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i> Khuda Kay Fazl Se Ham Per </p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i> Faslon Ko Khudara Mita Do</p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i> Qasida Ghousia</p>
-                  <p><i class="fa fa-check-circle" aria-hidden="true"></i> Meran Walion Kay Imam De D </p>
-                </div>
-                <div class="bottom">
-                  <a href="#" class="button-default">View ALL</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-    </div>
-
-  </div>
-
-  <!-- 05 Question Answer  -->
-  <div class="grid">
-    <div class="col-12 md:col-12 lg:col-12">
-      <section class="pricing">
-        <div class="container px-4 pt-3">
-          <div class="grid">
-            <div class="col-12 md:col-6 sm:col-6 xs:col-12">
-              <div class="pricing-item">
-                <div class="title" style="padding: 10px;text-align: center">
-                  <h3>Recent Articles</h3>
-                </div>
-
-                <p-tabView>
-                  <p-tabPanel header="Namaz">
-                    <div class="content">
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i> Namaz Writing & Work of Imam Ahmad Raza
-                      </p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Primary and Tertiary Education of Alahzrat
-                      </p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>92 Pearls of Wisdom by Alahazratc</p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>In defence of Alahazrat Imam Ahmed Raza
-                      </p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Alahazrat Spiritual Life</p>
-                    </div>
-                  </p-tabPanel>
-                  <p-tabPanel header="Roza">
-                    <div class="content">
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Roza Writing & Work of Imam Ahmad Raza</p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Primary and Tertiary Education of Alahzrat
-                      </p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>92 Pearls of Wisdom by Alahazratc</p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>In defence of Alahazrat Imam Ahmed Raza
-                      </p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Alahazrat Spiritual Life</p>
-                    </div>
-                  </p-tabPanel>
-                  <p-tabPanel header="Hajj">
-                    <div class="content">
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Hajj Writing & Work of Imam Ahmad Raza</p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Primary and Tertiary Education of Alahzrat
-                      </p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>92 Pearls of Wisdom by Alahazratc</p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>In defence of Alahazrat Imam Ahmed Raza
-                      </p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Alahazrat Spiritual Life</p>
-                    </div>
-                  </p-tabPanel>
-                  <p-tabPanel header="Zakat">
-                    <div class="content">
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Zakat Writing & Work of Imam Ahmad Raza
-                      </p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Primary and Tertiary Education of Alahzrat
-                      </p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>92 Pearls of Wisdom by Alahazratc</p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>In defence of Alahazrat Imam Ahmed Raza
-                      </p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Alahazrat Spiritual Life</p>
-                    </div>
-                  </p-tabPanel>
-                  <p-tabPanel header="Aqaid">
-                    <div class="content">
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Aqaid Writing & Work of Imam Ahmad Raza
-                      </p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Primary and Tertiary Education of Alahzrat
-                      </p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>92 Pearls of Wisdom by Alahazratc</p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>In defence of Alahazrat Imam Ahmed Raza
-                      </p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Alahazrat Spiritual Life</p>
-                    </div>
-                  </p-tabPanel>
-                </p-tabView>
-                <div class="bottom">
-                  <a href="#" class="button-default">View ALL</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 md:col-6 sm:col-6 xs:col-12">
-              <div class="pricing-item">
-                <div class="title" style="padding: 10px;text-align: center">
-                  <h3>Question/Answer</h3>
-                </div>
-
-                <p-tabView>
-                  <p-tabPanel header="Namaz">
-                    <div class="content">
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i> Namaz Writing & Work of Imam Ahmad Raza
-                      </p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Primary and Tertiary Education of Alahzrat
-                      </p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>92 Pearls of Wisdom by Alahazratc</p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>In defence of Alahazrat Imam Ahmed Raza
-                      </p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Alahazrat Spiritual Life</p>
-                    </div>
-                  </p-tabPanel>
-                  <p-tabPanel header="Roza">
-                    <div class="content">
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Roza Writing & Work of Imam Ahmad Raza</p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Primary and Tertiary Education of Alahzrat
-                      </p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>92 Pearls of Wisdom by Alahazratc</p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>In defence of Alahazrat Imam Ahmed Raza
-                      </p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Alahazrat Spiritual Life</p>
-                    </div>
-                  </p-tabPanel>
-                  <p-tabPanel header="Hajj">
-                    <div class="content">
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Hajj Writing & Work of Imam Ahmad Raza</p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Primary and Tertiary Education of Alahzrat
-                      </p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>92 Pearls of Wisdom by Alahazratc</p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>In defence of Alahazrat Imam Ahmed Raza
-                      </p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Alahazrat Spiritual Life</p>
-                    </div>
-                  </p-tabPanel>
-                  <p-tabPanel header="Zakat">
-                    <div class="content">
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Zakat Writing & Work of Imam Ahmad Raza
-                      </p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Primary and Tertiary Education of Alahzrat
-                      </p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>92 Pearls of Wisdom by Alahazratc</p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>In defence of Alahazrat Imam Ahmed Raza
-                      </p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Alahazrat Spiritual Life</p>
-                    </div>
-                  </p-tabPanel>
-                  <p-tabPanel header="Aqaid">
-                    <div class="content">
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Alahazrat Writing & Work of Imam Ahmad
-                        Raza</p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Primary and Tertiary Education of Alahzrat
-                      </p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>92 Pearls of Wisdom by Alahazratc</p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>In defence of Alahazrat Imam Ahmed Raza
-                      </p>
-                      <p><i class="fa fa-check-circle" aria-hidden="true"></i>Alahazrat Spiritual Life</p>
-                    </div>
-                  </p-tabPanel>
-                </p-tabView>
-                <div class="bottom">
-                  <a href="#" class="button-default">View ALL</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-    </div>
-
-  </div>
-
-  <!-- 06 Footer  -->
-
-  <div class="grid">
-    <div class="col-12 md:col-12 lg:col-12">
-
-      <footer>
-        <div class="footer-bottom">
-          <div class="container px-4 pt-3">
-            <div class="row">
-              <div class="col-md-6 col-sm-6 col-xs-12">
-                <p>&copy; 2023. Designed By <a
-                    href="https://www.linkedin.com/in/mohammad-naqeem-raza-momin-a8202a21a">Abul
-                    Fatah</a></p>
-              </div>
-              <div class="col-md-6 col-sm-6 col-xs-12">
-                <ul class="social-default">
-                  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
-  </div>
-</div>
-
-<router-outlet></router-outlet>
+		<header class="header-fixed header-six">
+			<div class="header-top">
+				<div class="container">
+					<ul class="left">
+						<li><span><i class="fa fa-phone" aria-hidden="true"></i></span> Phone : +91 8483919055</li>
+						<li><span><i class="fa fa-clock-o" aria-hidden="true"></i></span> Opening Time : 9:30am-5:30pm</li>
+						<li><span><i class="fa fa-home" aria-hidden="true"></i></span> Address : Khanqah E  Hashmatiyyah</li>
+					</ul>
+					<ul class="right">
+						<li><i class="fa fa-registered" aria-hidden="true"></i> <a href="#">Register</a></li>
+						<li>|</li>
+						<li><i class="fa fa-lock" aria-hidden="true"></i> <a href="#">Login</a></li>
+					</ul>
+				</div><!-- container -->
+			</div><!-- header top -->
+			<div class="main-menu">
+				<nav class="navbar ">
+				<div class="container">
+				  <!-- Brand and toggle get grouped for better mobile display -->
+				  <div class="navbar-header">
+					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						  <span class="sr-only">Toggle navigation</span>
+						  <span class="icon-bar"></span>
+						  <span class="icon-bar"></span>
+						  <span class="icon-bar"></span>
+					  </button>
+					  <a class="navbar-brand" href="index.html"><img src="../assets/images/logo/logo_02.png" alt="logo" class="img-responsive" style="height:45px"></a>
+				  </div>
+	
+				  <!-- Collect the nav links, forms, and other content for toggling -->
+				  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					  <ul class="nav navbar-nav navbar-right">
+						  
+						  <li class="dropdown">
+							  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
+							  <ul class="dropdown-menu">
+								  <li><a href="index.html">Home</a></li>
+							  </ul>
+						  </li>
+						  <li class="dropdown">
+							  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Books <span class="caret"></span></a>
+							  <ul class="dropdown-menu">
+								  <li><a href="books.html">Books</a></li>
+								  <li><a href="books-details.html">Books Details Page</a></li>
+							  </ul>
+						  </li>
+						  <li class="dropdown">
+							  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Media<span class="caret"></span></a>
+							  <ul class="dropdown-menu">
+								  <li><a href="media.html">Media</a></li>
+								  <li><a href="media-details.html">Media Details Page</a></li>
+							  </ul>
+						  </li>
+						  <li class="dropdown">
+							  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">AI Quran <span class="caret"></span></a>
+							  <ul class="dropdown-menu">
+								  <li><a href="quran.html">Quran</a></li>
+								  <li><a href="quran-details.html">Quran Details Page</a></li>
+							  </ul>
+						  </li>
+						  <li class="dropdown">
+							  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery <span class="caret"></span></a>
+							  <ul class="dropdown-menu">
+								  <li><a href="gallery.html">Islamic Gallery</a></li>
+							  </ul>
+						  </li>
+						  <li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About US <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="about.html">About</a></li>
+							</ul>
+						</li>
+					  
+						  <li><a href="contact.html">Contact</a></li>
+						  <li><span class="menu-search"><i class="fa fa-search" aria-hidden="true"></i></span></li>
+	
+					  </ul>
+					  <form class="menu-search-form">
+						  <input type="text" name="search" placeholder="Search here...">
+						  <span class="menu-search-close"><i class="fa fa-times" aria-hidden="true"></i></span>
+					  </form>   
+				  </div><!-- /.navbar-collapse -->
+				</div><!-- /.container -->
+			  </nav>
+			</div><!-- main menu -->
+		</header>
+  	<!-- header End here -->
 
 
-<!--
-  https://www.primefaces.org/diamond/icons.xhtml
-  https://www.primefaces.org/primeflex/formlayout
-  https://primeng.org/slider 
 
--->
+
+  	<!-- banner-search Start here -->
+  	<section class="banner-search section-bg padding-120">
+  		<div class="container">
+  			<form>
+  				<select class="bn-search-opt">
+	  				<option>All Categories</option>
+	  				<option>Book 1</option>
+	  				<option>Book 2</option>
+	  				<option>Book 3</option>
+	  				<option>Book 4</option>
+	  				<option>Book 5</option>
+	  				<option>Book 6</option>
+	  				<option>Book 7</option>
+	  			</select>
+	  			<select class="bn-search-opt">
+	  				<option>Book Lavel</option>
+	  				<option>Volume 1</option>
+	  				<option>Volume 2</option>
+	  				<option>Volume 3</option>
+	  			</select>
+	  			<input class="bn-search-opt" type="search" name="search" placeholder="Books Keyword...">
+	  			<button>Search Books</button>
+  			</form>
+  		</div><!-- container -->
+  	</section><!-- banner-search -->
+  	<!-- banner-search End here -->
+
+  		<!-- Courses Start here -->
+		  <section class="courses" style="padding-top:49px">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="row">
+							<div class="col-md-3 col-sm-4 col-xs-3">
+								<div class="course-item">
+									<div class="image">
+										<img src="../assets/images/11.jpeg" alt="course image" class="img-responsive">
+									</div>
+								</div><!-- course item -->
+							</div>
+							<div class="col-md-3 col-sm-4 col-xs-3">
+							  <div class="course-item">
+								  <div class="image">
+									  <img src="../assets/images/12.jpeg" alt="course image" class="img-responsive">
+								  </div>
+							  </div><!-- course item -->
+						  </div>
+						  <div class="col-md-3 col-sm-4 col-xs-3">
+							  <div class="course-item">
+								  <div class="image">
+									  <img src="../assets/images/13.jpeg" alt="course image" class="img-responsive">
+								  </div>
+							  </div><!-- course item -->
+						  </div>
+						  <div class="col-md-3 col-sm-4 col-xs-3">
+							<div class="course-item">
+								<div class="image">
+									<img src="../assets/images/14.jpeg" alt="course image" class="img-responsive">
+								</div>
+							</div><!-- course item -->
+						</div>
+						</div>
+					</div>
+				</div><!-- row -->
+			</div><!-- container -->
+		</section>
+		<!-- courses -->
+		<!-- Courses End here -->
+
+		<!-- Courses Start here -->
+		<section class="courses" >
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="row">
+							<div class="col-md-3 col-sm-4 col-xs-3">
+								<div class="course-item">
+									<div class="image">
+										<img src="../assets/images/quran/1.jpeg" alt="course image" class="img-responsive">
+									</div>
+								</div><!-- course item -->
+							</div>
+							<div class="col-md-3 col-sm-4 col-xs-3">
+							  <div class="course-item">
+								  <div class="image">
+									  <img src="../assets/images/quran/1.jpeg" alt="course image" class="img-responsive">
+								  </div>
+							  </div><!-- course item -->
+						  </div>
+						<div class="col-md-3 col-sm-4 col-xs-3">
+							<div class="course-item">
+								<div class="image">
+									<img src="../assets/images/quran/4.png" alt="course image" class="img-responsive">
+								</div>
+							</div><!-- course item -->
+						</div>
+						<div class="col-md-3 col-sm-4 col-xs-3">
+							<div class="course-item">
+								<div class="image">
+									<img src="../assets/images/quran/5.png" alt="course image" class="img-responsive">
+								</div>
+							</div><!-- course item -->
+						</div>
+						</div>
+					</div>
+				</div><!-- row -->
+			</div><!-- container -->
+		</section>
+		<!-- courses -->
+		<!-- Courses End here -->
+
+
+ 	<!-- Pricing Start here -->
+	 <section class="pricing">
+		<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="pricing-item">
+					<div class="title">
+						<h3>AI Quran <span><sup></sup></span></h3>
+					</div>
+					<div class="content">
+						<p><i class="fa fa-check-circle" aria-hidden="true"></i> Read Complete Al Quran</p>
+						<p><i class="fa fa-check-circle" aria-hidden="true"></i>Kanzul Eman Noorul Irfan</p>
+						<p><i class="fa fa-check-circle" aria-hidden="true"></i>Al Quran Arabic</p>
+						<p><i class="fa fa-check-circle" aria-hidden="true"></i>Al Quran MP3 Para Wise</p>
+						<p><i class="fa fa-check-circle" aria-hidden="true"></i>  Al Quran MP3 Surah Wise</p>
+					</div>
+					<div class="bottom">
+						<a href="#" class="button-default">View ALL</a>
+					</div>
+				</div><!-- pricing item -->
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="pricing-item">
+					<div class="title" style="background-color: #ffb400;">
+						<h3>Media <span><sup></sup></span></h3>
+					</div>
+					<div class="content">
+						<p><i class="fa fa-check-circle" aria-hidden="true"></i>Speeches</p>
+						<p><i class="fa fa-check-circle" aria-hidden="true"></i>Hamd</p>
+						<p><i class="fa fa-check-circle" aria-hidden="true"></i>Naat</p>
+						<p><i class="fa fa-check-circle" aria-hidden="true"></i>Darse Fiqah</p>
+						<p><i class="fa fa-check-circle" aria-hidden="true"></i> Meray Ghous Piya Jilani</p>
+					</div>
+					<div class="bottom">
+						<a href="#" class="button-default">View ALL</a>
+					</div>
+				</div><!-- pricing item -->
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="pricing-item">
+					<div class="title">
+						<h3>Gallary <span><sup></sup></span></h3>
+					</div>
+					<div class="content">
+						<p><i class="fa fa-check-circle" aria-hidden="true"></i> Meray Ghous Piya Jilani</p>
+						<p><i class="fa fa-check-circle" aria-hidden="true"></i> Khuda Kay Fazl Se Ham Per </p>
+						<p><i class="fa fa-check-circle" aria-hidden="true"></i> Faslon Ko Khudara Mita Do</p>
+						<p><i class="fa fa-check-circle" aria-hidden="true"></i> Qasida Ghousia</p>
+						<p><i class="fa fa-check-circle" aria-hidden="true"></i> Meran Walion Kay Imam De D </p>
+					</div>
+					<div class="bottom">
+						<a href="#" class="button-default">View ALL</a>
+					</div>
+				</div><!-- pricing item -->
+			</div>
+		</div><!-- row -->
+			
+		</div><!-- container -->
+	</section>
+	<!-- Pricing End here -->
+
+		<!-- Pricing Start here -->
+		<section class="pricing padding-120">
+			<div class="container">
+			<!-- <div class="section-header">
+			  <h3>Al Quran</h3>
+			  <p>Rapidiously expedite granular imperatives before economically sound web services. Credibly actualize pandemic strategic themeplatform.</p>
+			</div> -->
+			<div class="row">
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					
+					<div class="pricing-item">
+						<div class="title" style="background-color:#ffb400;">
+							<h3>Recent Articles <span><sup></sup></span></h3>
+						</div>
+						<div class="content">
+							<p><i class="fa fa-check-circle" aria-hidden="true"></i>Writing & Work of Imam Ahmad Raza</p>
+							<p><i class="fa fa-check-circle" aria-hidden="true"></i>Primary and Tertiary Education of Alahzrat</p>
+							<p><i class="fa fa-check-circle" aria-hidden="true"></i>92 Pearls of Wisdom by Alahazratc</p>
+							<p><i class="fa fa-check-circle" aria-hidden="true"></i>In defence of Alahazrat Imam Ahmed Raza</p>
+							<p><i class="fa fa-check-circle" aria-hidden="true"></i>Alahazrat Spiritual Life</p>
+						</div>
+						<div class="bottom">
+							<a href="#" class="button-default">View ALL</a>
+						</div>
+					</div><!-- pricing item -->
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<div class="pricing-item">
+						<div class="title">
+							<h3>Question Answers<span><sup></sup></span></h3>
+						</div>
+						<div class="content">
+							<p><i class="fa fa-check-circle" aria-hidden="true"></i>Roza Main Baal Katwana Kaisa Hay</p>
+							<p><i class="fa fa-check-circle" aria-hidden="true"></i>Eid Ke Din Roza Rakha Jaij Ya Nahi</p>
+							<p><i class="fa fa-check-circle" aria-hidden="true"></i>Roza Ki Halat Mein Aankh Mein Dawai Dalna</p>
+							<p><i class="fa fa-check-circle" aria-hidden="true"></i>Rozay Mein Sugar Ya Khoon Test Karana</p>
+							<p><i class="fa fa-check-circle" aria-hidden="true"></i>Rozay Ki Halat Main Insoleen Lagwana Kaisa He</p>
+						</div>
+						<div class="bottom">
+							<a href="#" class="button-default">View ALL</a>
+						</div>
+					</div><!-- pricing item -->
+				</div>
+			</div><!-- row -->
+				
+			</div><!-- container -->
+		</section>
+		<!-- Pricing End here -->
+
+  	<!-- Footer Start here -->
+  	<footer>
+  		
+  		<div class="footer-bottom">
+  			<div class="container">
+  				<div class="row">
+	  				<div class="col-md-6 col-sm-6 col-xs-12">
+	  					<p>&copy; 2023. Designed By <a href="https://www.linkedin.com/in/mohammad-naqeem-raza-momin-a8202a21a/">Abul Fatah</a></p>
+	  				</div>
+	  				<div class="col-md-6 col-sm-6 col-xs-12">
+	  					<ul class="social-default">
+			  				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+			  				<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+			  				<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+			  				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+			  				<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+			  			</ul>
+	  				</div>
+	  			</div><!-- row -->
+  			</div><!-- container -->
+  		</div><!-- footer bottom -->
+  	</footer>
+    <a class="page-scroll scroll-top" href="#scroll-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+  	<!-- Footer End here -->
