@@ -16,4 +16,10 @@ import { BooksDetailsComponent } from './components/books-details/books-details.
     BooksRoutingModule
   ]
 })
-export class BooksModule { }
+export class BooksModule { 
+
+  constructor()
+  {
+    console.log('BooksModule loaded');
+  }
+}
